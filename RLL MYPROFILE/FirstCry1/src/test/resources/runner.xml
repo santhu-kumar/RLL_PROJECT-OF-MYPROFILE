@@ -1,0 +1,17 @@
+<suite name="test1" verbose="1">
+
+	<listeners>
+    	<listener class-name="utils.Itestlisner"></listener>
+    	
+	</listeners>
+	
+	<test name="POMframework">
+		<classes>
+		<class name="mphasis.FirstCry.testSteps.TestRunner"></class> 
+<!-- 		<class name="testPages.SignUpTest"></class>  -->
+<!-- 		<class name="testPages.Deposit_into_Account_Test"></class>  -->
+<!--  			<class name="testPages.Deposit_into_Account_Test"></class>  -->
+
+		</classes>
+	</test>
+</suite>
